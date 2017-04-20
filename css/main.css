@@ -1,0 +1,71 @@
+.menu{
+	background: #E91313;/* al colocarle a .box float, el fondo ya no se ve*/
+	color: #777; /*color de letra para todo*/
+}
+.box{
+	width: 220px;
+	height: 270px;
+	box-shadow: 8px 10px 14px -8px #CECECE;
+	float: left;
+	background-color: #F4F1F1;
+	text-align: center;
+	padding-top: 30px;
+	margin:10px;
+	-webkit-transition:all 1s ease;
+	-moz-transition:all 1s ease;
+	-o-transition:all 1s ease;
+	transition:all 1s ease;
+	/*border: 3px solid #35A513;*/
+	padding-bottom: 20px;
+}
+.box:hover{
+	padding-top: 20px;
+	/*color: white;*/
+	background-color: #fff;
+	-webkit-transform:scale(1.1);
+	color: #7998F2; /*color azul a las letras*/
+	-webkit-transition: all .0.5s ease-in-out;
+}
+h2{
+	font-family: 'Georgia';
+	font-size: 20px;
+}
+h5{
+	font-family: 'Pacifico';
+	color: #777;
+	/*margin: 10px;*/
+}
+
+p{
+	/*font-family: 'Valera Round';*/
+	/*font-family: 'Roboto';*/
+	font-family: 'Josefin Sans';
+	font-size: 15px;
+	padding: 0 10px;
+}
+
+span{
+	font-size: 50px;
+
+}
+.icon-paperplane{
+}
+
+.icon-paperplanet{
+
+}
+.icon-diamond{
+}
+.icon-heart{
+
+}
+.icon-cup{
+
+}
+
+.icon-food{
+
+}
+.icon-section{
+}
+
