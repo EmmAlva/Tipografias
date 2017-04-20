@@ -2,7 +2,6 @@
 	background: #E91313;/* al colocarle a .box float, el fondo ya no se ve*/
 	color: #777; /*color de letra para todo*/
 	font-family: 'Pacifico';
-
 }
 .box{	
 	width: 220px;
@@ -26,7 +25,7 @@
 	/*color: white;*/
 	background-color: #fff;
 	-webkit-transform:scale(1.1);
-	color: #7998F2; /*color azul a las letras*/
+	/*color: #7998F2;*/ /*color azul a las letras*/
 	border-top: 5px solid rgba(224, 229, 228,0.5) ;
 	-webkit-transition: all .0.5s ease-in-out;
 	-moz-transition:all .0.5s ease-in-out;
@@ -54,6 +53,86 @@ span{
 	font-size: 60px;
 
 }
+
+.uno:hover{
+	padding-top: 20px;
+	/*color: white;*/
+	background-color: #fff;
+	-webkit-transform:scale(1.1);
+	color: #7998F2; /*color a la caja uno*/
+	border-top: 5px solid rgba(224, 229, 228,0.5) ;
+	-webkit-transition: all .0.5s ease-in-out;
+	-moz-transition:all .0.5s ease-in-out;
+	-o-transition:all .0.5s ease-in-out;
+	transition:all .0.5s ease-in-out;
+	/*font-family: 'Roboto';*/
+}
+.dos:hover{
+	padding-top: 20px;
+	/*color: white;*/
+	background-color: #fff;
+	-webkit-transform:scale(1.1);
+	color: #B311B9; /*color a la caja dos*/
+	border-top: 5px solid rgba(224, 229, 228,0.5) ;
+	-webkit-transition: all .0.5s ease-in-out;
+	-moz-transition:all .0.5s ease-in-out;
+	-o-transition:all .0.5s ease-in-out;
+	transition:all .0.5s ease-in-out;
+	/*font-family: 'Roboto';*/
+}
+.tres:hover{
+	padding-top: 20px;
+	/*color: white;*/
+	background-color: #fff;
+	-webkit-transform:scale(1.1);
+	color: #E21A36; /*color a la caja tres*/
+	border-top: 5px solid rgba(224, 229, 228,0.5) ;
+	-webkit-transition: all .0.5s ease-in-out;
+	-moz-transition:all .0.5s ease-in-out;
+	-o-transition:all .0.5s ease-in-out;
+	transition:all .0.5s ease-in-out;
+	/*font-family: 'Roboto';*/
+}
+.cuatro:hover{
+	padding-top: 20px;
+	/*color: white;*/
+	background-color: #fff;
+	-webkit-transform:scale(1.1);
+	color: #F48519; /*color a la caja cuatro*/
+	border-top: 5px solid rgba(224, 229, 228,0.5) ;
+	-webkit-transition: all .0.5s ease-in-out;
+	-moz-transition:all .0.5s ease-in-out;
+	-o-transition:all .0.5s ease-in-out;
+	transition:all .0.5s ease-in-out;
+	/*font-family: 'Roboto';*/
+}
+.cinco:hover{
+	padding-top: 20px;
+	/*color: white;*/
+	background-color: #fff;
+	-webkit-transform:scale(1.1);
+	color: #52E21A; /*color a la caja cinco*/
+	border-top: 5px solid rgba(224, 229, 228,0.5) ;
+	-webkit-transition: all .0.5s ease-in-out;
+	-moz-transition:all .0.5s ease-in-out;
+	-o-transition:all .0.5s ease-in-out;
+	transition:all .0.5s ease-in-out;
+	/*font-family: 'Roboto';*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .icon-paperplane{
 }
 
