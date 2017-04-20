@@ -1,8 +1,10 @@
 .menu{
 	background: #E91313;/* al colocarle a .box float, el fondo ya no se ve*/
 	color: #777; /*color de letra para todo*/
+	font-family: 'Pacifico';
+
 }
-.box{
+.box{	
 	width: 220px;
 	height: 270px;
 	box-shadow: 8px 10px 14px -8px #CECECE;
@@ -10,13 +12,14 @@
 	background-color: #F4F1F1;
 	text-align: center;
 	padding-top: 30px;
-	margin:10px;
+	margin:5px;
+	margin-top: 20px;
 	-webkit-transition:all 1s ease;
 	-moz-transition:all 1s ease;
 	-o-transition:all 1s ease;
 	transition:all 1s ease;
-	/*border: 3px solid #35A513;*/
 	padding-bottom: 20px;
+	/*border: 3px solid #35A513;*/
 }
 .box:hover{
 	padding-top: 20px;
@@ -24,10 +27,15 @@
 	background-color: #fff;
 	-webkit-transform:scale(1.1);
 	color: #7998F2; /*color azul a las letras*/
+	border-top: 5px solid rgba(224, 229, 228,0.5) ;
 	-webkit-transition: all .0.5s ease-in-out;
+	-moz-transition:all .0.5s ease-in-out;
+	-o-transition:all .0.5s ease-in-out;
+	transition:all .0.5s ease-in-out;
+	/*font-family: 'Roboto';*/
 }
 h2{
-	font-family: 'Playfair Display';
+	font-family: 'Playfair Display', serif; /*si no encuentra la fuente que use cualquier serif.*/
 	font-size: 25px;
 }
 h5{
@@ -37,8 +45,6 @@ h5{
 }
 
 p{
-	/*font-family: 'Valera Round';*/
-	/*font-family: 'Roboto';*/
 	font-family: 'Josefin Sans';
 	font-size: 15px;
 	padding: 0 10px;
